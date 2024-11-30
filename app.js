@@ -7,7 +7,7 @@ app.use(bodyParser.urlencoded({ extended: true }));
 app.use(bodyParser.json());
 app.use(bodyParser.raw());
 
-const port = 80
+const port = 8084
 
 app.get('/*', (req, res) => {
   res.send('Hello World!')
